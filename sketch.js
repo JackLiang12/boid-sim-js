@@ -9,6 +9,7 @@ function setup(){
     for(let i = 0; i < 100; i++){
     flock.push(new Boid());
     }
+    console.log(flock.length);
 }
 
 function draw(){
